@@ -7,8 +7,8 @@ body {
     height: 100%;
 }
 
-body {
-    font-family: Arial, Helvetica, sans-serif;
+body{
+    font-family:Arial, Arial, Helvetica, sans-serif;
     background-color: mintcream;
 }
 
@@ -52,3 +52,16 @@ article {
     text-align:center;
     margin: 2.5em 0 2.5em 0;
 }
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
